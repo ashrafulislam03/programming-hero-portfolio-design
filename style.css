@@ -52,7 +52,7 @@ header {
   /* background-color: #fff8f3; */
   padding-top: 50px;
   background: url(images/dev.png), url(images/header_bg.png), #fff8f3;
-  background-position: top left, bottom right;
+  background-position: 23px 38px, bottom right;
   background-repeat: no-repeat;
 }
 
@@ -222,3 +222,55 @@ nav .menu a {
   line-height: 28px;
   color: #757575;
 }
+
+.text-aling {
+  text-align: center;
+}
+
+footer {
+  margin-top: 130px;
+  background-color: #fff8f3;
+  padding: 130px 0;
+}
+
+footer .footer-container {
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  gap: 116px;
+}
+
+.footer-container h2{
+  font-size: 35px;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.footer-container .socile{
+  max-width: 562px;
+}
+
+
+.footer-container  p{
+  color: #474747;
+  line-height: 28px;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+
+.footer-container .icons a {
+  margin-right: 24px;
+}
+
+.footer-container form input[type="text"],
+.footer-container form textarea {
+  width: 461px;
+  padding: 18px 31px;
+  margin-bottom: 24px;
+  border: none;
+  border-radius: 5px;
+  color: #757575;
+}
+
